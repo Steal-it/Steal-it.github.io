@@ -9,14 +9,11 @@
 }
 
 :root {
-  --bg-color: #220d3e;
-  --bg-color2: #3e0d3d;
+  --bg-color: #2a104b;
   --bg-color-dark: #1b0b2f;
   --text-color: white;
   --accent: #e69a3d;
   --accent-secondary: #a594f9;
-
-  --bg-anim-duration: 15s
 }
 
 @font-face {
@@ -38,11 +35,6 @@ body {
   display: flex;
   flex-direction: column;
   background-color: var(--bg-color);
-  background: linear-gradient(134deg, var(--bg-color), var(--bg-color2));
-  background-size: 400% 400%;
-  -webkit-animation: BackgroundAnimation var(--bg-anim-duration) ease infinite;
-  -moz-animation: BackgroundAnimation var(--bg-anim-duration) ease infinite;
-  animation: BackgroundAnimation var(--bg-anim-duration) ease infinite;
 }
 
 header,
