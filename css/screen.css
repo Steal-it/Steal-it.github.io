@@ -98,6 +98,14 @@ video {
   object-position: center;
 }
 
+@media (max-width: 850px) {
+  video {
+    width: 100%;
+    height: 55vw;
+    object-fit: cover;
+  }
+}
+
 /* #endregion GENERAL CLASSES */
 
 /* ====================================== */
